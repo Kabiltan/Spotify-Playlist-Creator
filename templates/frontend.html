@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{url_for('static', filename='frontend.css')}}">
+    <div class="header" id="header">
+        <h1>Welcome to Random Playlist creator!</h1>
+      </div>
+</head>  
+
+<body>
+        <form method="POST">
+            <h3>Select the number of songs to be added to your new playlist</h3>
+            <div id="selectSongs2">
+                <select name="songs" id="selectSongs"></select>
+            </div>
+            <h3>Enter in a word or sentence for the theme of your new playlist</h3>          
+            <textarea rows="15" cols="100" name='text' type="text" class="text-box"></textarea>
+            <h3>Enter in the name of your new playlist</h3>          
+            <textarea rows="1" cols="30" name='playlist_name' type="text" class="text-box2"></textarea>
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    
+
+    <script src="{{url_for('static', filename='frontend.js')}}"></script>
+
+</body>  
+
+</html>
