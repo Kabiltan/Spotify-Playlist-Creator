@@ -1,0 +1,28 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #191414;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+  background:#1DB954;
+}
+
+.text-box { 
+  border: 1px solid #999999; 
+  position: relative;
+  top: 10px;
+}
+
+
+.submit-button {
+  position: relative;
+  left: -240px;
+  top: 100px;
+}
+
+.selectSongs2 {
+  position: relative;
+}
